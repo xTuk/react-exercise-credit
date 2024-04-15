@@ -1,0 +1,29 @@
+.calculator {
+    background-color: #00355d;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.text-calc {
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.amount{
+    font-size: 42px;
+    font-weight: bold;
+    min-height: 64px;
+}
+
+.no-calc {
+    font-size: 32px;
+    font-weight: bold;
+    min-height: 64px;
+    align-content: center;
+}
