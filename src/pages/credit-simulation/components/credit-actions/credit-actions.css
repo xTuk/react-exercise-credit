@@ -1,0 +1,39 @@
+.button-obtain {
+    border: none;
+    background-color: #16a68a;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 0.75rem 1rem ;
+}
+
+.button-detail {
+    border: none;
+    background-color: #0b538b;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 0.75rem 1rem ;
+}
+
+.container-buttons {
+    display: grid;
+    grid-template-columns: 1fr 0.50fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 16px;
+}
+
+button:disabled {
+    filter: grayscale(1);
+    cursor: auto;
+}
+
+.text-obtain {
+    text-align: center;
+}

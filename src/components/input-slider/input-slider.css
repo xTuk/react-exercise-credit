@@ -1,0 +1,6 @@
+.container-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    width: "90%"; margin: "auto"
+}
